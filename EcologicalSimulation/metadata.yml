@@ -1,0 +1,12 @@
+---
+:id: 131663729
+:submitters:
+- :name: ZHUOWEN SONG
+  :email: u1313034@utah.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2022-09-02 02:41:15.846274000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2022-09-01 19:41:15.846274000 Z
+:status: processed
+:score: 100.0

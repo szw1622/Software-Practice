@@ -1,0 +1,14 @@
+---
+:id: 138283908
+:submitters:
+- :name: ZHUOWEN SONG
+  :email: u1313034@utah.edu
+- :name: KEMING CHEN
+  :email: u1256974@utah.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2022-10-04 10:44:16.106633000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2022-10-04 03:44:16.106633000 Z
+:status: processed
+:score: 90.0

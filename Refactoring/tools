@@ -1,0 +1,28 @@
+CC = g++
+CFLAGS = -Wall
+# Change to your googletest path
+GOOGLETEST = ./googletest
+
+test: clean TrieUnitTests
+	./TrieUnitTests
+
+oldTest: clean TrieTest
+	./TrieTest words.txt queries.txt
+
+TrieUnitTests: TrieUnitTests.o Trie.o
+	$(CC) -o TrieUnitTests TrieUnitTests.o Trie.o -L$(GOOGLETEST)/lib -lgtest -lgtest_main -lpthread
+
+TrieUnitTests.o: TrieUnitTests.cpp
+	$(CC) -std=c++11 -c TrieUnitTests.cpp -I$(GOOGLETEST)/googletest/include/
+	
+TrieTest: TrieTest.o Trie.o
+	$(CC) $(CFLAGS) -o TrieTest TrieTest.o Trie.o 
+
+TrieTest.o: TrieTest.cpp Trie.cpp Trie.h
+	$(CC) $(CFLAGS) -c TrieTest.cpp
+
+Trie.o: Trie.cpp Trie.h
+	$(CC) $(CFLAGS) -c Trie.cpp
+
+clean:
+	rm -f Trie.o TrieTest.o TrieUnitTests.o TrieTest TrieUnitTests
