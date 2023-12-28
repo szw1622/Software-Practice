@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "y/FQhZnamKkMY4L5DSRM9ZGrdCq6PPUYqdgsMtTT0usxBeo3QIo3kv1l4+ZQO9335H1wqo2dIRY3x5SzMrOpKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\songz\\source\\repos\\A8\\AgarioGame\\AgarioModels\\AgarioModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\songz\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\songz\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\songz\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\songz\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaEvaluator", "FormulaEvaluator\FormulaEvaluator.csproj", "{926D4B43-E745-4C98-933D-FBFCA0E2CE87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_The_Evaluator_Console_App", "Test_The_Evaluator_Console_App\Test_The_Evaluator_Console_App.csproj", "{20966025-0818-428F-8B6F-34953B5D912A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9CCFE7B-8EF1-4C4E-AB6B-02FB0C958F74}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradingTests", "GradingTests\GradingTests.csproj", "{8564EC2C-19AD-47D1-8586-E82FBB2500B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyGraph", "DependencyGraph\DependencyGraph.csproj", "{F347CF21-1029-47E5-ACC7-A815221316B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyGraphTests", "DependencyGraphTests\DependencyGraphTests.csproj", "{9F7181B9-6D77-4AD7-B9CE-F3B32D86A1FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{926D4B43-E745-4C98-933D-FBFCA0E2CE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926D4B43-E745-4C98-933D-FBFCA0E2CE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926D4B43-E745-4C98-933D-FBFCA0E2CE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926D4B43-E745-4C98-933D-FBFCA0E2CE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20966025-0818-428F-8B6F-34953B5D912A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20966025-0818-428F-8B6F-34953B5D912A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20966025-0818-428F-8B6F-34953B5D912A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20966025-0818-428F-8B6F-34953B5D912A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8564EC2C-19AD-47D1-8586-E82FBB2500B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8564EC2C-19AD-47D1-8586-E82FBB2500B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8564EC2C-19AD-47D1-8586-E82FBB2500B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8564EC2C-19AD-47D1-8586-E82FBB2500B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F347CF21-1029-47E5-ACC7-A815221316B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F347CF21-1029-47E5-ACC7-A815221316B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F347CF21-1029-47E5-ACC7-A815221316B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F347CF21-1029-47E5-ACC7-A815221316B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7181B9-6D77-4AD7-B9CE-F3B32D86A1FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7181B9-6D77-4AD7-B9CE-F3B32D86A1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7181B9-6D77-4AD7-B9CE-F3B32D86A1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7181B9-6D77-4AD7-B9CE-F3B32D86A1FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B2648C7-332D-49C7-BA41-EA7D50C21AAE}
+	EndGlobalSection
+EndGlobal

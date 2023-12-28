@@ -1,0 +1,14 @@
+---
+:id: 124613128
+:submitters:
+- :name: ZHUOWEN SONG
+  :email: u1313034@utah.edu
+- :name: JIAWEN WANG
+  :email: u1302985@utah.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2022-04-30 04:54:08.992885000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2022-04-29 21:54:08.992885000 Z
+:status: processed
+:score: 85.0

@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c3e437f1-9719-46ba-8dab-ba1d32652186": {
+      "ProjectGuid": "c3e437f1-9719-46ba-8dab-ba1d32652186",
+      "DisplayName": "AgarioModels",
+      "ColorIndex": 0
+    },
+    "6f93bef1-d069-472e-855f-d9d73656de34": {
+      "ProjectGuid": "6f93bef1-d069-472e-855f-d9d73656de34",
+      "DisplayName": "ClientGUI",
+      "ColorIndex": 1
+    },
+    "4030198d-3574-4c71-9ace-ff05bd4b260f": {
+      "ProjectGuid": "4030198d-3574-4c71-9ace-ff05bd4b260f",
+      "DisplayName": "Communications",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "c007f15d-dabc-4048-bef6-e38275c096d8": {
+      "ProjectGuid": "c007f15d-dabc-4048-bef6-e38275c096d8",
+      "DisplayName": "lib",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
